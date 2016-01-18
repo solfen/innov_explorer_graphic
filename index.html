@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Where2Sit</title>
+	<link href="css/sg-bootstrap.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+</head>
+
+<body onload="init();">
+	<!--[if !IE]><!-->
+
+	<h1 class="jumbotron text-center">
+		<img id="logo" src="imgs/logo.png" alt="game logo">
+		<br>
+		<!--<p id="subtitle">Great place to sit</p>-->
+		<p id="subtitle">A game to understand what the heck is going on with the innovation in SG</p>
+	</h1>
+	
+	<div class="row" id="demoRow">
+		<br>
+		<div class="col-sm-12 text-center">
+			<img src="imgs/leftArrow.png" style="margin-right: 5px; cursor: pointer;" alt="leftArrow" onclick="slide(-1)"> 
+			<img id="currentGif" src="img/gifs/mainOverview.gif" alt="hahaha"> 
+			<img src="imgs/rightArrow.png" style="margin-left: 5px; cursor: pointer;" alt="rightArrow" onclick="slide(1)"> 
+		</div>
+		
+		<br/>
+		
+		<div class="col-sm-12 text-center">
+			<h5 id='currentText' style="margin-bottom: 0px"></h5>
+		</div>
+		
+		<br/>
+		<div class="col-sm-12 text-center"><br/></div>
+		<div class="col-sm-12 text-center">
+			 <button type="button" class="btn btn-success btn-lg" onclick="window.location = 'game.html'">Play!</button>
+		</div>
+		
+		<br/>
+
+		
+	</div>
+	
+	<script src="js/index.js"></script>
+	
+	<![endif]-->
+	
+	
+	<!--[if lte IE 8]> 
+		<h1 class="jumbotron text-center">Where2Sit</h1>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<p id="info" class="text-center">Non-compatible browser, please use Firefox or Chrome</p>
+			</div>
+		</div> 
+	<![endif]-->
+	
+</body>
+</html>

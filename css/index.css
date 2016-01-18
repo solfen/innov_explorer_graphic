@@ -1,0 +1,125 @@
+body {
+	overflow-x: hidden;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica;
+}
+
+.jumbotron {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+#subtitle {
+	font-style: italic;
+	color: #7D7D7D;
+	font-size: 2.4rem;
+}
+
+#demoRow {
+	background-color: #CCC;
+	box-shadow: inset 3px 2px 4px 0px rgba(56,55,56,0.51);
+}
+
+.UIBtn {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	right: 0;
+	opacity: 0.7;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.UIBtn > img {
+	vertical-align: middle;
+	width: 60%;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	right: 0;
+}
+
+.FillBar {
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+#xpFillBar {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	top: 20px;
+	left: 50px;
+	opacity: 0.7;
+}
+
+.UIXpBarLabel {
+	position: absolute;
+	left: -40px;
+	top: -2px;
+	font-size: 20px;
+	text-align: right;
+	color: white;
+}
+
+.UIXpBarGain {
+	position: absolute;
+	right: -45px;
+	top: -2px;
+	font-size: 20px;
+	text-align: right;
+	color: gold;
+}
+
+.FillBarFillIndex {
+	height: 100%;
+	background-color: green;
+	border-radius: inherit;
+	text-align: right;
+	color: white;
+}
+
+.button {
+	color: #fff;
+	background-color: #337ab7;
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+.redButton, .greenButton {
+	color: #fff;
+	background-color: red;
+	display: inline-block;
+	padding: 0px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	width:10%;
+	font-size: 20px;
+}
+
+.greenButton {
+	background-color: rgb(46, 174, 46);
+}
+
+.button:hover, .button:active {
+	background-color: #174F80
+}
+
+.redButton:hover, .redButton:active {
+	background-color: #C20505;
+}
+
+.greenButton:hover, .greenButton:active {
+	background-color: rgb(37, 139, 37);
+} 

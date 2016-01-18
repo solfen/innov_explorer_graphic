@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	
+	<body onload="init();">
+		<div id="loading" style="position:absolute; width:100%; height:100%; background-color:black"><img src="imgs/loadGif.gif" style="position: absolute; top: 50%; right: 50%; margin-right: -64px; margin-top: -64px;"><h2 style="color: white; text-align: center; margin-top: 25%;">Loading...</h2></div>
+		<div id="UI" style="display:none;">
+			<div class="UIBtn" style="bottom:5px;" onclick='showPopUp("carnet");'>
+				<img src="imgs/notebookIcon.png"  alt="UI btn to open notebook"/>
+			</div>		
+			<div class="UIBtn" style="bottom:110px;" onclick='showPopUp("map");'>
+				<img src="imgs/map.png" alt="UI btn to open map"/>
+			</div>		
+
+			<div class="FillBar" id="xpFillBar">
+				<span class="UIXpBarLabel">XP:</span>
+				<span class="UIXpBarGain" id="xpGainFeedback"></span>
+				<div class="FillBarFillIndex" style="width:5%" id="xpPercent">0%</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="libs/pixi.min.js"></script>
+	<script src="libs/modal.js"></script>
+	<script src="libs/proton-1.0.0.min.js"></script>
+	
+	<script src="js/config.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/draw.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/popups.js"></script>
+	<script src="js/xpUI.js"></script>
+	<script src="js/player.class.js"></script>
+	<script src="js/tools.js"></script>
+	<script src="js/update.js"></script>
+	<script src="js/graphicalObjects.js"></script>
+	<script src="js/planet.class.js"></script>
+
+</html>
